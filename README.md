@@ -23,5 +23,7 @@
 # poner Git Bash si no estaba por defecto
 # git init
 # ver en las hojas que esta pasando con los archivos
-#inicializamos el repositorio
+# inicializamos el repositorio
 # git add .
+# git commit -m "Probamos html"
+# git push -u origin
