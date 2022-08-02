@@ -27,3 +27,6 @@
 # git add .
 # git commit -m "Probamos html"
 # git push -u origin
+# el <body> es lo que va a ver la gente
+# antes de que cierre <body> ponemos todos los scripts
+# antes de que cierre <head> ponemos todos los estilos
