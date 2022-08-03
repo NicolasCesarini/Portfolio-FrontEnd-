@@ -30,3 +30,7 @@
 # el <body> es lo que va a ver la gente
 # antes de que cierre <body> ponemos todos los scripts
 # antes de que cierre <head> ponemos todos los estilos
+# Para agregar estilos a mi página agrego a <head>:
+# <link rel="stylesheet" type="text/css" href="styles.css">
+# Hago el archivo de estilos styles.css
+# Creo carpeta assets y dentro de esa la carpeta css y muevo el styles.css ahí
