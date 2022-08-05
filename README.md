@@ -34,3 +34,22 @@
 # <link rel="stylesheet" type="text/css" href="styles.css">
 # Hago el archivo de estilos styles.css
 # Creo carpeta assets y dentro de esa la carpeta css y muevo el styles.css ahí
+# en assets tambien hago una carpeta js para los scripts y una img para las imágenes
+# en styles.css se usa *{} para que sea general
+# por el styles.css esta en una carpeta uso: <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+# styles.css
+# *{
+#     width: 70%; (ancho) (atributo: valor)
+#     margin: 0 9% 5% 7%; (margen) (12:00 03:00 06:00 09:00) se le puede meter solo 2 valores y el primerp va a 12:00 y # 6:00 y el segundo de 03:00 y 09:00; con margin: auto se acomoda solo) (seria en sentido de la agujas del reloj) (se 
+# puede usar con %, px)
+#     padding: 0; ()
+# }
+# el padding es el deplazamiento interno de lo que queremos seleccionar. Hay padding positivo y negativo
+# para hacer comentario en css se usa /*comentario*/
+# Atajo para hacer comentario: control + k + c
+# Class 
+# Se pueden poner estilos desde cualquier lado, pero prefible poner en css
+# Si es para una sola página los puedo poner antes del </head>, sino se pone otra hoja de estilos para esa pagina y la linkeo con solo esa página
+# Para poner un fondo s
+# Las clases se pueden llamar como se quiera
+# Si a un <div> se le pone una te cambia todo el <div>
