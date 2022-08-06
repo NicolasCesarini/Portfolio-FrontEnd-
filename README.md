@@ -53,3 +53,4 @@
 # Para poner un fondo s
 # Las clases se pueden llamar como se quiera
 # Si a un <div> se le pone una te cambia todo el <div>
+# Para verificar como realizar páginas se puede usar https://codepen.io

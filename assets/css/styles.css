@@ -7,13 +7,16 @@
 
 
 .titulo {
-    color:rgb(161, 153, 35)
+    color:rgb(161, 153, 35);
     /* #000 hex color - color hexadecimal */
 }
 
 .fondo {
     /* background: rgb(33, 175, 52); */
-    background-image: url(https://www.caracteristicas.co/wp-content/uploads/2017/02/perro-1-e1561678907722.jpg)
+    /* background-image: url(https://www.caracteristicas.co/wp-content/uploads/2017/02/perro-1-e1561678907722.jpg); */
+    background-image: url(../img/030015d9.jpg);
+    /* ../ para ir una carpeta para atras */
+
 }
 
 /*  */
