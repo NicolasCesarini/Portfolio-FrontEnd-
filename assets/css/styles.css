@@ -1,13 +1,16 @@
 *{
-    width: 99%;
+    width: 90%;
     margin: auto;
     padding: 0.25%;
-    /* overflow-y: hidden; */
+    /* overflow-y: hidden; */ /* Esto me hace que me desaparezca la barra de scroll */
 }
 
+body {
+    /* background: url(../img/030015d9.jpg); */
+}
 
 .titulo {
-    color:rgb(161, 153, 35);
+    color:rgb(122, 34, 173);
     /* #000 hex color - color hexadecimal */
 }
 
@@ -17,6 +20,10 @@
     background-image: url(../img/030015d9.jpg);
     /* ../ para ir una carpeta para atras */
 
+}
+
+.card { 
+    width: 18rem;
 }
 
 /*  */
