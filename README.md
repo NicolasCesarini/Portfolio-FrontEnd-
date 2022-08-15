@@ -54,3 +54,9 @@
 # Las clases se pueden llamar como se quiera
 # Si a un <div> se le pone una te cambia todo el <div>
 # Para verificar como realizar páginas se puede usar https://codepen.io
+# Generamos una página html nueva (dashboard) que sería la página de (adaptación?)
+# Cada documento html que hago necesita la referencias a todo (css, bootstrap, javascript)
+# Agregamos un tab pero como en responsibe puede dar problemas usamos List Group o Button Group (de Bootstrap)
+# Definimos que hacer: se pone como ejemplo hacer como en la página de Bootstrap.
+# Poner una columna a la izquierda
+# Buscar carrousel en bootstap (si lo haces con aspect ratio recortas las imágenes para que tengan todas el mismo tamaño)
