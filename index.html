@@ -4,208 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer HTML</title>
+    <title>Portfolio</title>
     <!-- Estilos -->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d5f2ab5ba4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
-    <!-- <style> -->
-    <!-- .titulo { -->
-        <!-- color:rgb(161, 153, 35) -->
-        <!-- /* #000 hex color - color hexadecimal */ -->
-    <!-- } -->
-    <!-- </style> -->
-    
-
-    <style>
-        .verde {
-            color: rgb(8, 152, 22)
-        }
-        .rojo {
-            rgb(194, 14, 14)
-        }
-    </style>
-    <!-- Lo mejor es tener los estilos en style.css -->
-
-    
-
-
-    <h1 class= "titulo"><strong>Esto es un h1</strong></h1>
-    <!-- <h1 style = color:rgb(161, 153, 35); class= "titulo"><strong>Esto es un h1</strong></h1> No se debe hacer -->
-    <h2 class="verde rojo">Esto es un h2</h2>
-    <h3>Esto es un h3</h3>
-    <h4>Esto es un h4</h4>
-    <h5>Esto es un h5</h5>
-    <h6>Esto es un h6</h6>
-
-    <div class="card" style="width: 18rem;">
-        <img src="assets/img/030015d9.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-
-    <div class="bd-example">
-        <table class="table table-dark table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-      
-        </table>
-    </div>
-
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-
-    
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-    </button>
-    
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo Argentina Programa.png" alt="" width="20%" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dropdown</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-      
-      
+    </nav>
 
-    <div class= "titulo fondo">
-        <p>Un párrafo cualquiera</p>
-        <p><b>Un párrafo cualquiera (negrita)</b></p>
-        <p class="titulo"><strong>Un párrafo cualquiera (negrita)</strong></p>
-        <p><b>Un párrafo cualquiera (negrita)</b></p> <br> <br>
-        <p><strong>Un párrafo cualquiera (negrita)</strong></p>
-        <p><b>Un párrafo cualquiera (negrita)</b></p> <hr> <hr>
-        <p><strong>Un párrafo cualquiera (negrita)</strong></p>
-    </div>
-
-
-
-
-<!--<div>  -->
-    <h2>Otro Título</h2>
-    <a href="https://github.com/NicolasCesarini/Portfolio-FrontEnd-">CLICK</a> <br>
-    <a href="https://github.com/NicolasCesarini/Portfolio-FrontEnd-" target="blank"_>CLICK (A OTRA PESTAÑA)</a> <br>
-    <img src="https://www.caracteristicas.co/wp-content/uploads/2017/02/perro-1-e1561678907722.jpg"> <br>
-    <audio src="02 money machine.m4a" autoplay loop controls></audio> <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3QMtlnoRXmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.2606894911414!2d-58.752534784636126!3d-34.49627475932825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc991bf180e871%3A0xd80d4ead225a8b0a!2sMi%20Casa!5e0!3m2!1ses-419!2sar!4v1659250707698!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
-
-    <ol>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-    </ol>
-
-    <ul>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-        <li>Elemento</li>
-    </ul>
-
-    <form>
-        <p>Nombre: <input type="text" name="nombre" size="40" placeholder="Ingrese su Nombre" required></p>
-        <p>Password: <input type="password" name="password" size="40"></p>
-        <p>Título: <input type="text" name="rol" size="40" placeholder="Este es tu rol" readonly></p>
-        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
-        <p>Sexo: 
-            <input type="radio" name="hm" size="h"> Hombre
-            <input type="radio" name="hm" size="m"> Mujer
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-        </p>
-    </form>
-
-    <!-- The second value will be selected initially -->
-    <select name="select">
-        <option value="value1">Value 1</option>
-        <option value="value2" selected>Value 2</option>
-        <option value="value3">Value 3</option>
-    </select> <br>
-
-    <label for="cars">Choose a car:</label>
-    <select  name="cars" id="cars">
-      <optgroup label="Swedish Cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-      </optgroup>
-      <optgroup label="German Cars">
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-      </optgroup>
-    </select>  <br>
-      
-
-
-<!--</div> -->
-
-<div>
-    <h2>Otro Título</h2>
-</div>
-
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
-
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>  
 </body>
 </html>

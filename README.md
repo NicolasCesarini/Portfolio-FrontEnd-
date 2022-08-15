@@ -60,3 +60,7 @@
 # Definimos que hacer: se pone como ejemplo hacer como en la página de Bootstrap.
 # Poner una columna a la izquierda
 # Buscar carrousel en bootstap (si lo haces con aspect ratio recortas las imágenes para que tengan todas el mismo tamaño)
+# Armar la maqueta con bootstrap
+# No meter muchas cosas raras de javascript sino con las animaciones de bootstrap (carrousel de imágenes, filtro de imágenes), para que despues nose haga mucho lío con Angular.
+# Inicio la maqueta
+# Usamos Font Awesome para agregar los iconitos
