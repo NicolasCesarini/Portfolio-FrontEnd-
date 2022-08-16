@@ -5,9 +5,9 @@
     /* overflow-y: hidden; */ /* Esto me hace que me desaparezca la barra de scroll */
 }
 
-body {
-    /* background: url(../img/030015d9.jpg); */
-}
+/*body {
+    background: url(../img/030015d9.jpg);
+}*/
 
 .titulo {
     color:rgb(122, 34, 173);
