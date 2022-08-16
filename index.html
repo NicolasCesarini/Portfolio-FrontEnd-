@@ -17,26 +17,44 @@
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Logo Argentina Programa.png" alt="" width="20%" height="auto">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dropdown</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
-                    </li>
-                </ul>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl"></i></li>
+                <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
+                <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
+                <!-- Button trigger modal -->
+                <li class="list-group-item"><i class="fa-solid fa-user fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></li>
+            </ul>
+            
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+  
         </div>
     </nav>
 

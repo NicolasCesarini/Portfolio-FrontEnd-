@@ -64,3 +64,9 @@
 # No meter muchas cosas raras de javascript sino con las animaciones de bootstrap (carrousel de imágenes, filtro de imágenes), para que despues nose haga mucho lío con Angular.
 # Inicio la maqueta
 # Usamos Font Awesome para agregar los iconitos
+# Voy a Bootstrap y de Ahí a Docs y Modal. Elegí la Verically centered.
+# Primero copie todo lo que esta en Live Demo. Lo copie despues del <ul>
+# Lo que quiero es que en vez de aparecer el botón aparezca con el logito de la persona y que este al ser presionado llame a la ventana modal
+# Copio todo el botón y lo pego en <li class="list-group-item"><i class="fa-solid fa-user fa-2xl"></i></li>
+# Cómo me queda el botón y el iconito lo que hago es mezclo ambos quedando asi
+# Saco un formulario de Bootstrap de Bootstrap Forms form control para ingresar usuario y contraseña y lo pongo en el <modal body>
