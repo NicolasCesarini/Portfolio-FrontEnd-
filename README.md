@@ -70,3 +70,6 @@
 # Copio todo el botón y lo pego en <li class="list-group-item"><i class="fa-solid fa-user fa-2xl"></i></li>
 # Cómo me queda el botón y el iconito lo que hago es mezclo ambos quedando asi
 # Saco un formulario de Bootstrap de Bootstrap Forms form control para ingresar usuario y contraseña y lo pongo en el <modal body>
+# css lee de abajo para arriba. Razon por la cual si defino algo abajo de lo mismo ya definido el que escribi despues predomina.
+# Tratar de nunca usar en css los colores con los nombres. Usar hexadecimal.
+# Ahora quiero el banner. Voy a Bootstrap y busco banner, como no lo encontre use uso un carousel

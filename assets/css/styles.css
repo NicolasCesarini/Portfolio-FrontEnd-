@@ -1,3 +1,11 @@
+body{
+    background-image: url(../img/030015d9.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+
 /* Paso navbar navbar-expand-lg bg-primary a navbar.navbar-expand-lg.bg-primary para cambiar el estilo a mi color de preferencia */
 /* .navbar.navbar-expand-lg.bg-primary{
     background: rgb(15,15,226);
@@ -9,16 +17,36 @@
 
 /* Paso <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li> a */
 /* Pongo :hover para que al acercarme al ícono tenga color */
+
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-solid.fa-user.fa-2xl{
+    color: rgb(255, 255, 255);
+}
+
 i.fa-brands.fa-facebook.fa-2xl:hover{
-    color:blue;
+    color:rgb(2, 2, 253);
 }
 
 i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color:blue;
+    color:rgb(14, 170, 218);
 }
 
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color:rgb(221, 75, 209);
+}
+
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: rgb(219, 109, 19);
+}
+
+
+
 .list-group{
+    /* el --bs-list-group-bg lo saque con el inspeccionador */
     --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
 }
 
 
