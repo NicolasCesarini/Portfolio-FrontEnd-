@@ -1,8 +1,8 @@
 body{
-    background-image: url(../img/030015d9.jpg);
+    background-image: url(../img/Neon.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 
@@ -47,6 +47,12 @@ i.fa-solid.fa-user.fa-2xl:hover{
     /* el --bs-list-group-bg lo saque con el inspeccionador */
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
+}
+
+section.about{
+    /* Pongo margin-top para que las letras se vean */
+    margin-top: 15rem;
+    /* No utilizamos pixeles para que sea responsive */
 }
 
 

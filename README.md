@@ -73,3 +73,5 @@
 # css lee de abajo para arriba. Razon por la cual si defino algo abajo de lo mismo ya definido el que escribi despues predomina.
 # Tratar de nunca usar en css los colores con los nombres. Usar hexadecimal.
 # Ahora quiero el banner. Voy a Bootstrap y busco banner, como no lo encontre use uso un carousel
+# Le agrego padding al Sobre Mí para que no quede por debajo de la nav-bar class="pt-5"
+# Para seguir hacemos mas secciones
