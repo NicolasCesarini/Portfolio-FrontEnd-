@@ -1,5 +1,5 @@
 /* Paso navbar navbar-expand-lg bg-primary a navbar.navbar-expand-lg.bg-primary para cambiar el estilo a mi color de preferencia */
-/*.navbar.navbar-expand-lg.bg-primary{
+/* .navbar.navbar-expand-lg.bg-primary{
     background: rgb(15,15,226);
     background: -moz-linear-gradient(0deg, rgba(15,15,226,1) 33%, rgba(211,226,25,1) 33%, rgba(211,226,25,1) 66%, rgba(15,15,226,1) 66%);
     background: -webkit-linear-gradient(0deg, rgba(15,15,226,1) 33%, rgba(211,226,25,1) 33%, rgba(211,226,25,1) 66%, rgba(15,15,226,1) 66%);
