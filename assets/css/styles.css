@@ -49,7 +49,9 @@ i.fa-solid.fa-user.fa-2xl:hover{
     --bs-list-group-border-color: transparent;
 }
 
-section.about{
+section.about,
+section.edit,
+section.panel{
     /* Pongo margin-top para que las letras se vean */
     margin-top: 15rem;
     /* No utilizamos pixeles para que sea responsive */

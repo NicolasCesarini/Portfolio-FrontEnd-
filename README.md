@@ -75,3 +75,7 @@
 # Ahora quiero el banner. Voy a Bootstrap y busco banner, como no lo encontre use uso un carousel
 # Le agrego padding al Sobre Mí para que no quede por debajo de la nav-bar class="pt-5"
 # Para seguir hacemos mas secciones
+# Tuve un problema con la modal
+# Copio la ventana modal de la navbar para las modales del dashboard
+# Para que el boton sea mas grane le agregamos a la clase btn-lg y para que tenga aire le agregamos p-5
+# Buscamos Gutter para separar los botones 
