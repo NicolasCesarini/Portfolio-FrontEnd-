@@ -22,7 +22,7 @@
                 <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
                 <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
                 <!-- Button trigger modal -->
-                <li class="list-group-item"><i class="fa-solid fa-user fa-2xl" type="button"></i></li>
+                <li class="list-group-item"><i class="fa-solid fa-user-lock fa-2xl" type="button"></i></li>
             </ul>
         </div>
     </nav>
@@ -37,29 +37,29 @@
                     <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-image fa-2xl" type="button"></i></button></div>
                 </div>
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-briefcase fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#trabajoModal"><i class="fa-solid fa-briefcase fa-2xl" type="button"></i></button></div>
                 </div>
             </div>
             <div class="row mt-2 g-2 g-lg-3">
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-graduation-cap fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#educacionModal"><i class="fa-solid fa-graduation-cap fa-2xl" type="button"></i></button></div>
                 </div>
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-folder fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#trabajoModal"><i class="fa-solid fa-folder fa-2xl" type="button"></i></button></div>
                 </div>
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-user fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-comment fa-2xl" type="button"></i></button></div>
                 </div>
             </div>
             <div class="row mt-2 g-2 g-lg-3">
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-user fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-share fa-2xl" type="button"></i></button></div>
                 </div>
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-user fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#infoModal"><i class="fa-solid fa-plus fa-2xl" type="button"></i></button></div>
                 </div>
                 <div class="col">
-                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-user fa-2xl" type="button"></i></button></div>
+                    <div class="p-3"><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-dumbbell fa-2xl" type="button"></i></button></div>
                 </div>
             </div>
         </div>
@@ -67,11 +67,11 @@
    
     <!-- Modal -->
     <!-- El modal lo tuve que poner luego del nav porque sino no me dejaba cambiar las cosas para el login -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">login</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Educación</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -95,6 +95,66 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <!-- El modal lo tuve que poner luego del nav porque sino no me dejaba cambiar las cosas para el login -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- El modal lo tuve que poner luego del nav porque sino no me dejaba cambiar las cosas para el login -->
+    <div class="modal fade" id="trabajoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Trabajo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="formFile" class="form-label">Logo empresa</label>
+                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

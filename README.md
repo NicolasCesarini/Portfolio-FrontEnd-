@@ -78,4 +78,5 @@
 # Tuve un problema con la modal
 # Copio la ventana modal de la navbar para las modales del dashboard
 # Para que el boton sea mas grane le agregamos a la clase btn-lg y para que tenga aire le agregamos p-5
-# Buscamos Gutter para separar los botones 
+# Buscamos Gutter para separar los botones
+# Voy a hacer los tabs para el dashboard (viejo)
