@@ -80,3 +80,7 @@
 # Para que el boton sea mas grane le agregamos a la clase btn-lg y para que tenga aire le agregamos p-5
 # Buscamos Gutter para separar los botones
 # Voy a hacer los tabs para el dashboard (viejo)
+# Los modales con los botones los cambiamos con el id y con el track id en el botón
+# De los botones del dashboard (viejo) <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+# saco data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+# quedando <a href="/index.html"><button class="nav-link active" id="v-pills-home-tab" type="button">Home</button></a>
