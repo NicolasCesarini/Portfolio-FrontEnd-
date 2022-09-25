@@ -89,3 +89,4 @@
 # Para Ángular combiene poner comentarios en html y css con los mismos comentarios para poder pasarlos a Ángular.
 # Para cambiar el estilo de fuente usamos https://fonts.google.com
 # Para cambiar la fuente eligo de ahí e importo el css de el estilo de fuente y el estilo. Si en vez de traer el estilo de css con import uso el link pero en html antes de que termine el head (</head>). En el estilo le pongo *{} para que se haga a todo.
+# En el style.css con # se refiere a un id y con . se refiere a una class
