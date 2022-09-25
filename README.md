@@ -82,5 +82,10 @@
 # Voy a hacer los tabs para el dashboard (viejo)
 # Los modales con los botones los cambiamos con el id y con el track id en el botón
 # De los botones del dashboard (viejo) <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-# saco data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-# quedando <a href="/index.html"><button class="nav-link active" id="v-pills-home-tab" type="button">Home</button></a>
+# Saco data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+# Quedando <a href="/index.html"><button class="nav-link active" id="v-pills-home-tab" type="button">Home</button></a>
+# Margenes ms-auto (margin start), me-auto (margin end). Los mt, ma, me, mb se usa hasta 5 o sino combiene ponerle un estilo con mas margen siguiendo los mismos nombres.
+# Las imágenes combiene que esten en png y comprimidas (Se puede usar la página iloveimg).
+# Para Ángular combiene poner comentarios en html y css con los mismos comentarios para poder pasarlos a Ángular.
+# Para cambiar el estilo de fuente usamos https://fonts.google.com
+# Para cambiar la fuente eligo de ahí e importo el css de el estilo de fuente y el estilo. Si en vez de traer el estilo de css con import uso el link pero en html antes de que termine el head (</head>). En el estilo le pongo *{} para que se haga a todo.

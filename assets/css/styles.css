@@ -28,22 +28,32 @@ i.fa-solid.fa-user-lock.fa-2xl{
 
 i.fa-brands.fa-facebook.fa-2xl:hover{
     color:rgb(2, 2, 253);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.5);
 }
 
 i.fa-brands.fa-linkedin.fa-2xl:hover{
     color:rgb(14, 170, 218);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.5);
 }
 
 i.fa-brands.fa-instagram.fa-2xl:hover{
     color:rgb(221, 75, 209);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.5);
 }
 
 i.fa-solid.fa-user.fa-2xl:hover{
     color: rgb(219, 109, 19);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.5);
 }
 
 i.fa-solid.fa-user-lock.fa-2xl:hover{
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.5);
 }
 
 
