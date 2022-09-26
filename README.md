@@ -26,7 +26,7 @@
 # inicializamos el repositorio
 # git add .
 # git commit -m "Probamos html"
-# git push -u origin
+#  
 # el <body> es lo que va a ver la gente
 # antes de que cierre <body> ponemos todos los scripts
 # antes de que cierre <head> ponemos todos los estilos
@@ -100,3 +100,4 @@
 # El archivo debe estar en la raiz del proyecto, sino poner donde se encuentre el PDF.
 # <a href="imagen.jpg" download="mi-imagen.jpg">Descargar</a> (Para descargar una imagen). (Se descarga con el segundo nombre).
 # <a href="imagen.jpg" download> (En ese caso se descarga con el mismo nombre del archivo)
+# Para que el body cambie solo en el index en css cambio el .body{} por .index{} y en el <body> de index dejo <body class="index">

@@ -1,4 +1,4 @@
-body{
+.index{
     background-image: url(../img/Neon.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -69,6 +69,10 @@ section.panel{
     /* Pongo margin-top para que las letras se vean */
     margin-top: 15rem;
     /* No utilizamos pixeles para que sea responsive */
+}
+
+.text-secondary{
+    color: rgb(76, 219, 19)!important;
 }
 
 
