@@ -101,3 +101,4 @@
 # <a href="imagen.jpg" download="mi-imagen.jpg">Descargar</a> (Para descargar una imagen). (Se descarga con el segundo nombre).
 # <a href="imagen.jpg" download> (En ese caso se descarga con el mismo nombre del archivo)
 # Para que el body cambie solo en el index en css cambio el .body{} por .index{} y en el <body> de index dejo <body class="index">
+# Instale node.js y typescript para hacer el proyecto de angular.
