@@ -18,13 +18,13 @@
 /* Paso <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li> a */
 /* Pongo :hover para que al acercarme al ícono tenga color */
 
-i.fa-brands.fa-facebook.fa-2xl,
+/*i.fa-brands.fa-facebook.fa-2xl,
 i.fa-brands.fa-linkedin.fa-2xl,
 i.fa-brands.fa-instagram.fa-2xl,
 i.fa-solid.fa-user.fa-2xl,
 i.fa-solid.fa-user-lock.fa-2xl{
     color: rgb(255, 255, 255);
-}
+}*/
 
 i.fa-brands.fa-facebook.fa-2xl:hover{
     color:rgb(2, 2, 253);
