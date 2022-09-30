@@ -1,5 +1,5 @@
 .index{
-    background-image: url(../img/Neon.jpg);
+    background-image: url(../img/Cielo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -73,6 +73,9 @@ section.panel{
 
 .text-secondary{
     color: rgb(76, 219, 19)!important;
+}
+div.seccion{
+    background-color: rgba(255, 0, 200, 0.13);
 }
 
 
