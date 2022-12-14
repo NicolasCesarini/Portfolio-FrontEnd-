@@ -103,3 +103,4 @@
 # Para que el body cambie solo en el index en css cambio el .body{} por .index{} y en el <body> de index dejo <body class="index">
 # Instale node.js y typescript para hacer el proyecto de angular.
 # Para hacer un ícono tipo lo de fontawesome se usa iloveimg y luego se le pasa por la página favicon-generator
+# Vuelvo al Proyecto
